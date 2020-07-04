@@ -1,4 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A frontend application for https://github.com/WikKam/DemagogWebScraper
+
+## Packages
+  I used following packages:
+  - [chartjs](https://jerairrest.github.io/react-chartjs-2/)
+  - [react-bootstrap](https://react-bootstrap.github.io/)
+  - [react-router](https://reactrouter.com/)
+  - [react-lazyload](https://www.npmjs.com/package/react-lazyload)
+  - [react-countup](https://www.npmjs.com/package/react-countup)
 
 ## Available Scripts
 
