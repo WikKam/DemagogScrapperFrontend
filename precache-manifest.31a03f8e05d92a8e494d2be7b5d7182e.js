@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "16b57b7b9354c6e106bc71663e58e789",
+    "revision": "223d648770ff356c9508ff72df8b8932",
     "url": "/DemagogScrapperFrontend/index.html"
   },
   {
-    "revision": "0424ea2fce9bcd70aee4",
+    "revision": "ecf5d0f26c14a684ca3d",
     "url": "/DemagogScrapperFrontend/static/css/main.2ed6e6c8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/DemagogScrapperFrontend/static/js/2.fe7c228b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0424ea2fce9bcd70aee4",
-    "url": "/DemagogScrapperFrontend/static/js/main.77f11e45.chunk.js"
+    "revision": "ecf5d0f26c14a684ca3d",
+    "url": "/DemagogScrapperFrontend/static/js/main.10fd8417.chunk.js"
   },
   {
     "revision": "c5f5738e19384c04ec32",

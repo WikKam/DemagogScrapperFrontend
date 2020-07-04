@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/DemagogScrapperFrontend/precache-manifest.4fb12c8fd8c97143f24bd22eedaa2655.js"
+  "/DemagogScrapperFrontend/precache-manifest.31a03f8e05d92a8e494d2be7b5d7182e.js"
 );
 
 self.addEventListener('message', (event) => {
