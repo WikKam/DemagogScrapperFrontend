@@ -1,0 +1,25 @@
+.wrapper{
+    margin: 8%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: stretch;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.left{
+    display: block;
+    min-width: 300px;
+}
+.right{
+    display: flex;
+    justify-content: right;
+}
+
+.data{
+    font-size: 20px;
+    text-align: left;
+}
+
+.data div i{
+    margin-right: 5%;
+}

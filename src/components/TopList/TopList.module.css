@@ -1,0 +1,103 @@
+ul li{
+    display: flex;
+    padding: 10px 20px;
+    margin: 5px 0;
+    transition: 0.5s;
+    align-items: baseline;
+}
+.container{
+    width: 85%;
+    margin:auto;
+}
+.image{
+    width:100px;
+    background-color: white;
+    border: 1px solid rgba(180, 177, 177, 0.9);
+    border-radius: 5px;
+}
+ul{
+    padding-left: 0;
+}
+ul li {
+    position: relative;
+}
+ul li{
+    background-color: #f9f9f9;
+}
+ul li:nth-child(2){
+    background-color: #ffe866c4;
+}
+ul li:nth-child(3){
+    background-color: #d5d5d7c9;
+}
+ul li:nth-child(4){
+    background-color: #d7995bc0;
+}
+ul li span:nth-child(1){
+    margin-left: 5%;
+}
+
+ul li span:nth-child(2), ul li span:nth-child(3) {
+    margin-left: 10%;
+}
+
+ul li span:nth-child(4){
+    position: absolute;
+    right: 5%;
+    top:35%;
+}
+
+ul li:first-child span:nth-child(4){
+    right: 1%;
+    top: 20%;
+}
+
+ul li:not(:first-child):hover{
+    transform: scale(1.06);
+    background: #f9f9f9;
+}
+ul li:not(:first-child) {
+    cursor: pointer;
+}
+
+ul li span:nth-child(5){
+    position: absolute;
+    right: 10%;
+    top: 35%;
+}
+
+ul li:nth-child(2) span:nth-child(5){
+    color: #cfb43b
+}
+
+ul li:nth-child(3) span:nth-child(5){
+    color: #87868c
+}
+
+ul li:nth-child(4) span:nth-child(5){
+    color: #a46628
+}
+
+@media screen and (max-width: 500px){
+    .image{
+        width: 50px;
+    }
+
+    ul li span {
+        font-size: 13px;
+        text-align: left;
+        max-width: 100px;
+    }
+
+    ul li span:nth-child(5){
+        position: absolute;
+        right: 15%;
+        top: 35%;
+    }
+
+    ul li:first-child span:nth-child(3){
+        position:absolute;
+        right: 40%;
+    }
+    
+}
