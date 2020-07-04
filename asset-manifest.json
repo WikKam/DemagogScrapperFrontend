@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/demagogscrapperfrontend/static/css/main.2ed6e6c8.chunk.css",
+    "main.js": "/demagogscrapperfrontend/static/js/main.d84d3db6.chunk.js",
+    "main.js.map": "/demagogscrapperfrontend/static/js/main.d84d3db6.chunk.js.map",
+    "runtime-main.js": "/demagogscrapperfrontend/static/js/runtime-main.339cc562.js",
+    "runtime-main.js.map": "/demagogscrapperfrontend/static/js/runtime-main.339cc562.js.map",
+    "static/js/2.991a9887.chunk.js": "/demagogscrapperfrontend/static/js/2.991a9887.chunk.js",
+    "static/js/2.991a9887.chunk.js.map": "/demagogscrapperfrontend/static/js/2.991a9887.chunk.js.map",
+    "index.html": "/demagogscrapperfrontend/index.html",
+    "precache-manifest.6b495e73e018972ab7752fba126437de.js": "/demagogscrapperfrontend/precache-manifest.6b495e73e018972ab7752fba126437de.js",
+    "service-worker.js": "/demagogscrapperfrontend/service-worker.js",
+    "static/css/main.2ed6e6c8.chunk.css.map": "/demagogscrapperfrontend/static/css/main.2ed6e6c8.chunk.css.map",
+    "static/js/2.991a9887.chunk.js.LICENSE.txt": "/demagogscrapperfrontend/static/js/2.991a9887.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/demagogscrapperfrontend/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.339cc562.js",
+    "static/js/2.991a9887.chunk.js",
+    "static/css/main.2ed6e6c8.chunk.css",
+    "static/js/main.d84d3db6.chunk.js"
+  ]
+}
