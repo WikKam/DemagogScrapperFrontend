@@ -1,4 +1,4 @@
-const url = 'http://localhost:8080';
+const url = 'https://demagogscrapper.azurewebsites.net/';
 
 const getDataFromApi = async (details) => {
     
