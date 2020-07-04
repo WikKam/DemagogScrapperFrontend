@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Component/>
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/DemagogScrapperFrontend">
           <Redirect to = {'/DemagogScrapperFrontend/coalitions'}/>
         </Route>
         <Route path = {'/DemagogScrapperFrontend/coalitions'} exact render = {(props) => (
