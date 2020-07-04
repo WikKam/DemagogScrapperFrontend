@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/DemagogScrapperFrontend/static/css/main.2ed6e6c8.chunk.css",
-    "main.js": "/DemagogScrapperFrontend/static/js/main.5a864df5.chunk.js",
-    "main.js.map": "/DemagogScrapperFrontend/static/js/main.5a864df5.chunk.js.map",
+    "main.js": "/DemagogScrapperFrontend/static/js/main.dddd3b67.chunk.js",
+    "main.js.map": "/DemagogScrapperFrontend/static/js/main.dddd3b67.chunk.js.map",
     "runtime-main.js": "/DemagogScrapperFrontend/static/js/runtime-main.f7994e73.js",
     "runtime-main.js.map": "/DemagogScrapperFrontend/static/js/runtime-main.f7994e73.js.map",
     "static/js/2.d94f8c8a.chunk.js": "/DemagogScrapperFrontend/static/js/2.d94f8c8a.chunk.js",
     "static/js/2.d94f8c8a.chunk.js.map": "/DemagogScrapperFrontend/static/js/2.d94f8c8a.chunk.js.map",
     "index.html": "/DemagogScrapperFrontend/index.html",
-    "precache-manifest.b05d6d89508e2386bbdf0a1736a07573.js": "/DemagogScrapperFrontend/precache-manifest.b05d6d89508e2386bbdf0a1736a07573.js",
+    "precache-manifest.a6bc37bc60eda320e544450cdea0f6ca.js": "/DemagogScrapperFrontend/precache-manifest.a6bc37bc60eda320e544450cdea0f6ca.js",
     "service-worker.js": "/DemagogScrapperFrontend/service-worker.js",
     "static/css/main.2ed6e6c8.chunk.css.map": "/DemagogScrapperFrontend/static/css/main.2ed6e6c8.chunk.css.map",
     "static/js/2.d94f8c8a.chunk.js.LICENSE.txt": "/DemagogScrapperFrontend/static/js/2.d94f8c8a.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.f7994e73.js",
     "static/js/2.d94f8c8a.chunk.js",
     "static/css/main.2ed6e6c8.chunk.css",
-    "static/js/main.5a864df5.chunk.js"
+    "static/js/main.dddd3b67.chunk.js"
   ]
 }
