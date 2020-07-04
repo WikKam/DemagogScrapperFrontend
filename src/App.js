@@ -14,7 +14,7 @@ function App() {
           <Redirect to = {'/coalitions'}/>
         </Route>
         <Route path = {'/coalitions'} exact render = {(props) => (
-          <List type = {'coalitions'} {...props} side = {200} path = {'/coalitions'}></List>
+          <List key = {'coalitions'} type = {'coalitions'} {...props} side = {200} path = {'/coalitions'}></List>
         )}/>
         <Route path = {'/coalitions/:name'} render = {(props) => 
           (<Details {...props} type = 'coalitions'></Details>)}/>
@@ -23,15 +23,15 @@ function App() {
         <Route path = '/members/:name' render = {(props) => 
         (<Details {...props} type = 'members'></Details>)}/>
         <Route path = '/parties' exact render = {(props) => 
-        (<List type = {'parties'} {...props} side = {100} path = {'/parties'}></List>)}/>
+        (<List key = {'parties'} type = {'parties'} {...props} side = {100} path = {'/parties'}></List>)}/>
         <Route path = '/members' exact render = {(props) => 
-        (<List type = {'members'} {...props} side = {100} path = {'/members'}></List>)}/>
+        (<List key = {'members'} type = {'members'} {...props} side = {100} path = {'/members'}></List>)}/>
         <Route path = '/topList/coalitions' render = {(props) => (
-        <TopList {...props} type = 'coalitions' path = {'/coalitions/results'}></TopList>)}/>
+        <TopList key = {'coalitions'} {...props} type = 'coalitions' path = {'/coalitions/results'}></TopList>)}/>
         <Route path = '/topList/parties' render = {(props) => (
-        <TopList {...props} type = 'parties' path = {'/parties/results'}></TopList>)}/>
+        <TopList key = {'parties'} {...props} type = 'parties' path = {'/parties/results'}></TopList>)}/>
         <Route path = '/topList/members' render = {(props) => (
-        <TopList {...props} type = 'members' path = {'/members'}></TopList>)}/>
+        <TopList key = {'members'} {...props} type = 'members' path = {'/members'}></TopList>)}/>
       </Switch>
     </div>
     </Router>
