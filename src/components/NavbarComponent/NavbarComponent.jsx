@@ -11,13 +11,13 @@ const NavbarComponent = () => {
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav>
         <NavDropdown title="Rankings" id="collasible-nav-dropdown">
-          <NavDropdown.Item href="/topList/coalitions">Coalitions</NavDropdown.Item>
-          <NavDropdown.Item href="/topList/parties">Parties</NavDropdown.Item>
-          <NavDropdown.Item href="/topList/members">Politicians</NavDropdown.Item>
+          <NavDropdown.Item href="/DemagogScrapperFrontend/topList/coalitions">Coalitions</NavDropdown.Item>
+          <NavDropdown.Item href="/DemagogScrapperFrontend/topList/parties">Parties</NavDropdown.Item>
+          <NavDropdown.Item href="/DemagogScrapperFrontend/topList/members">Politicians</NavDropdown.Item>
         </NavDropdown>
-        <Nav.Link href="/coalitions">Coalitions</Nav.Link>
-        <Nav.Link eventKey={2} href="/parties">Parties</Nav.Link>
-        <Nav.Link eventKey={2} href="/members">Politicians</Nav.Link>
+        <Nav.Link href="/DemagogScrapperFrontend/coalitions">Coalitions</Nav.Link>
+        <Nav.Link eventKey={2} href="/DemagogScrapperFrontend/parties">Parties</Nav.Link>
+        <Nav.Link eventKey={2} href="/DemagogScrapperFrontend/members">Politicians</Nav.Link>
         <Nav.Link href = "https://demagog.org.pl/" target = "_blank">Visit Source</Nav.Link>        
       </Nav>
     </Navbar.Collapse>
